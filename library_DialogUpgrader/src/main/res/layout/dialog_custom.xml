@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dialog_custom_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:paddingTop="24dp"
+        android:text="Title"
+        android:textSize="22sp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/dialog_custom_content"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:paddingTop="24dp"
+        android:text="Content"
+        android:textSize="18sp"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/dialog_custom_alongside_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="16dp"
+        android:orientation="horizontal"
+        android:paddingBottom="16dp"
+        android:paddingTop="24dp">
+
+        <Button
+            android:id="@android:id/button2"
+            android:layout_width="88dp"
+            android:layout_height="36dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:background="@color/transparent"
+            android:textAllCaps="true"
+            android:textSize="14sp"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@android:id/button1"
+            android:layout_width="88dp"
+            android:layout_height="36dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:background="@color/transparent"
+            android:textAllCaps="true"
+            android:textSize="14sp"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dialog_custom_stacked_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        android:paddingTop="24dp"
+        android:visibility="gone">
+        <Button
+            android:id="@+id/dialog_custom_confirm_stacked"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_gravity="right|center_vertical"
+            android:gravity="right|center_vertical"
+            android:padding="8dp"
+            android:background="@color/transparent"
+            android:textAllCaps="true"
+            android:textSize="14sp"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/dialog_custom_cancel_stacked"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_gravity="right|center_vertical"
+            android:gravity="right|center_vertical"
+            android:padding="8dp"
+            android:background="@color/transparent"
+            android:textAllCaps="true"
+            android:textSize="14sp"
+            android:visibility="gone"/>
+
+        </LinearLayout>
+
+</LinearLayout>

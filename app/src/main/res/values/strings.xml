@@ -1,0 +1,351 @@
+<resources>
+
+    <string name="app_name">DialogUpgrader</string>
+
+    <!-- common -->
+    <string name="download">下载</string>
+    <string name="back">返回</string>
+    <string name="search">搜索</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="next">下一步</string>
+    <string name="more">更多</string>
+    <string name="report">举报</string>
+    <string name="reply">回复</string>
+    <string name="cache">缓存</string>
+    <string name="tips">提示</string>
+    <string name="stop">停止</string>
+    <string name="delete">删除</string>
+    <string name="submit">提交</string>
+    <string name="publish">发布</string>
+    <string name="category">分类</string>
+    <string name="retry">重试</string>
+    <string name="clean">清除</string>
+    <string name="settings">设置</string>
+    <string name="all">全部</string>
+
+    <!--  -->
+    <string name="zssq_tips">追书君友情提示</string>
+    <string name="network_unconnected">网络未连接</string>
+    <string name="network_failed">网络不给力</string>
+    <string name="forbidden_tips">很抱歉，你已被禁止</string>
+    <string name="load_failed">载入失败</string>
+    <string name="load_failed_tips">载入失败，请检查网络或稍后再试</string>
+    <string name="loading">载入中…</string>
+    <string name="toc">目录</string>
+    <string name="download_tips">下载提示</string>
+    <string name="download_start">开始下载</string>
+    <string name="ok_user">我知道了</string>
+
+    <!--  -->
+    <string name="added_bookshelf">已加入书架</string>
+    <string name="add_bookshelf">加入书架</string>
+    <string name="error_bookshelf_load">载入书架出错</string>
+    <string name="alert_no_more">没有更多内容</string>
+    <string name="find_category_boy">分类（男）</string>
+    <string name="find_category_girl">分类（女）</string>
+    <string name="find_mystery">随机看书</string>
+    <string name="rank_list">排行榜</string>
+
+    <!-- actionbar menu -->
+    <string name="ab_menu_top">置顶或取消置顶</string>
+
+    <string name="menu_booklist">主题书单</string>
+    <string name="menu_settings">设置</string>
+    <string name="menu_toc">目录</string>
+    <string name="menu_reading_settings">显示选项</string>
+    <string name="pref_text_size">字体大小</string>
+    <string name="pref_brightness">亮度</string>
+    <string name="pref_volume_keys_flip">音量键翻页</string>
+    <string name="last_chapter_label">最新章节：</string>
+    <string name="follower_count_text">" 人在追"</string>
+    <string name="is_last">这是最后一页</string>
+    <string name="is_first">这是第一页</string>
+    <string name="book_info_format">类　　型： %1$s\n作　　者： %2$s\n连载状态： %3$s\n最近更新： %4$s</string>
+    <string name="book_detail_info_format">作　　者： %1$s\n类　　型： %2$s\n连载状态： %3$s\n最近更新： %4$s</string>
+    <string name="isSerial">连载中</string>
+    <string name="isEnd">已完结</string>
+    <string name="remove_book_event">已移除《%1$s》</string>
+    <string name="add_book_event">已添加《%1$s》</string>
+
+    <!-- type -->
+    <string name="type_xhqh">玄幻奇幻</string>
+    <string name="type_wxxx">武侠仙侠</string>
+    <string name="type_dsyn">都市异能</string>
+    <string name="type_lsjs">历史军事</string>
+    <string name="type_yxjj">游戏竞技</string>
+    <string name="type_khly">科幻灵异</string>
+    <string name="type_cyjk">穿越架空</string>
+    <string name="type_hmzc">豪门总裁</string>
+    <string name="type_xdyq">现代言情</string>
+    <string name="type_gdyq">古代言情</string>
+    <string name="type_hxyq">幻想言情</string>
+    <string name="type_dmtr">耽美同人</string>
+    <string name="type_cartoon">漫画与其他</string>
+    <string name="type_none">其它</string>
+    <string name="type_all">全部</string>
+
+    <string name="load_error_hint">请点击刷新</string>
+    <string name="exit_hint">再按一次退出程序</string>
+    <string name="last_read_label">回到上次阅读</string>
+    <string name="last_read">%1$s：%2$s</string>
+    <string name="chapter_load_error">飞船失去网络已坠毁…</string>
+    <string name="chapter_load_code">当前资源站枯竭，请更换来源</string>
+    <string name="chapter_load_unread">我们正在努力寻找到生命迹象…</string>
+    <string name="chapter_load_code_btn">切换本章来源</string>
+    <string name="chapter_load_unread_btn">切换模式</string>
+    <string name="toc_load_error">目录加载失败</string>
+    <string name="no_result">糟糕！没有找到这本书\n我们正在加紧收录更多书籍</string>
+    <string name="no_resource">糟糕，这本书搜索不到资源站</string>
+    <string name="disclaimer">追书神器提醒您：在使用追书神器前，请您务必仔细阅读并透彻理解本声明。您可以选择不使用追书神器，但如果您使用追书神器，您的使用行为将被视为对本声明全部内容的认可。\n
+    追书神器是一款提供网络小说即时更新的工具，为广大小说爱好者提供一种方便、快捷、舒适的试读体验。追书神器致力于最大程度的减少网络小说阅读者在自行搜寻过程中毫无意义的时间浪费，通过专业搜索展示不同网站中网络小说的最新章节。
+    追书神器为广大小说爱好者提供方便、快捷、舒适的试读体验的同时，也使优秀网络小说得以更迅捷、更广泛的传播，从而达到了在一定程度促进网络文学充分繁荣发展之目的。\n
+　  当您点击搜索一本书时，追书神器会将该书的书名以关键词的形式提交到第三方网站或搜索引擎（如百度、宜搜、贴吧等）。第三方网站返回的内容与追书神器无关，追书神器对其概不负责，亦不承担任何法律责任。
+    任何通过使用追书神器而链接到的第三方网页均系他人制作或提供，您可能从该第三方网页上获得其他服务，追书神器对其合法性概不负责，亦不承担任何法律责任。第三方搜索引擎结果根据你提交的书名自动搜索获得并提供试读，不代表追书神器赞成被搜索链接到的第三方网页上的内容或立场。
+    您应该对使用搜索引擎的结果自行承担风险。追书神器不做任何形式的保证：不保证第三方搜索引擎的搜索结果满足您的要求，不保证搜索服务不中断，不保证搜索结果的安全性、正确性、及时性、合法性。因网络状况、通讯线路、第三方网站等任何原因而导致您不能正常使用追书神器，追书神器不承担任何法律责任。
+    追书神器尊重并保护所有使用追书神器用户的个人隐私权，您注册的用户名、电子邮件地址等个人资料，非经您亲自许可或根据相关法律、法规的强制性规定，追书神器不会主动地泄露给第三方。\n
+　  追书神器鼓励广大小说爱好者通过追书神器发现优秀网络小说及其提供商，并建议阅读正版图书。任何单位或个人认为通过追书神器搜索链接到的第三方网页内容可能涉嫌侵犯其信息网络传播权，应该及时向追书神器提出书面权利通知，并提供身份证明、权属证明及详细侵权情况证明。追书神器在收到上述法律文件后，将会依法尽快断开相关链接内容。</string>
+    <string name="disclaimer_title">免责声明</string>
+    <string name="version_title">版本</string>
+    <string name="book_info_title">书籍详情</string>
+    <string name="resource_list_title_format">%1$s 搜索结果</string>
+    <string name="reader_option_title">阅读设置</string>
+    <string name="bookshelf_total">你目前共追看 %1$d 部小说</string>
+    <string name="bookshelf_updated">上次刷新时间：%1$s</string>
+    <string name="resource_searched">[ %1$s ] 共搜索到 %2$d 个网站</string>
+    <string name="refurbish_start">正在检查小说更新…</string>
+    <string name="refurbish_no_change">你追的小说暂无更新</string>
+    <string name="refurbish_changed">小说已更新</string>
+    <string name="feedback_title">用户反馈</string>
+    <string name="feedback_submit">发送</string>
+    <string name="feedback_body_hint">请输入意见或问题\n您也可以反馈到QQ群：184602389</string>
+    <string name="feedback_email_hint">请填写QQ或邮箱 (选填)</string>
+    <string name="feedback_no_body">请填写内容</string>
+    <string name="feedback_improper_email">邮箱或QQ格式不正确</string>
+    <string name="feedback_success">意见反馈发送成功</string>
+    <string name="reader_page_unreadable">请更换其它章节或资源站</string>
+    <string name="add_book_hint">是否将本书加入书架？</string>
+    <string name="add_book">加入书架</string>
+    <string name="add_book_cancel">不了</string>
+    <string name="night_mode">夜间</string>
+    <string name="normal_mode">正常</string>
+    <string name="read_landscape">横屏</string>
+    <string name="read_portrait">竖屏</string>
+    <string name="system_brightness">系统</string>
+    <string name="pref_click_flip_animation">翻页动画</string>
+    <string name="pref_reader_full_screen">全屏模式</string>
+    <string name="pref_title_screen_off_time">屏幕关闭时间</string>
+    <string name="pref_dialog_title_screen_off_time">选择屏幕关闭时间</string>
+    <string name="menu_mode_switch">切换阅读模式</string>
+    <string name="read_mode_optimize">智能转码</string>
+    <string name="read_mode_baidu">百度转码</string>
+    <string name="read_mode_easou">宜搜转码</string>
+    <string name="read_mode_tieba">百度贴吧</string>
+    <string name="nav_back">后退</string>
+    <string name="nav_forward">前进</string>
+    <string name="nav_reload">刷新</string>
+    <string name="switch_read_mode">切换阅读模式</string>
+    <string name="rank_format">第 %s 名</string>
+    <string name="follower_count_format">%s 人在追</string>
+    <string name="retention_ratio_format">%s%% 读者留存</string>
+    <string name="update_notice">更新通知</string>
+    <string name="pref_new_topic_notice">新话题通知</string>
+    <string name="notice_sound">通知提示音</string>
+    <string name="menu_add_book">加书</string>
+    <string name="add_book_shelf_ok">已添加到书架</string>
+    <string name="read_random_add">添加到书架</string>
+    <string name="read_random_next">换一本</string>
+
+    <!-- search & add book -->
+    <string name="search_add_tips">没有你想要的小说？ 点击精确搜索  >></string>
+    <string name="search_hint">输入书名或作者名</string>
+    <string name="search_failed">搜索失败，请检查网络或稍后再试</string>
+    <string name="book_add_loading">正在搜索，请稍等…</string>
+    <string name="book_add_failed">添加失败</string>
+    <string name="book_add_ok">添加成功</string>
+    <string name="book_add_ok_msg">是否立即查看新添加的书？</string>
+    <string name="book_add_ok_pos">立即查看</string>
+    <string name="book_add_ok_neg">留在此页</string>
+    <string name="add_book_title">精确找书</string>
+    <string name="add_book_create">查找</string>
+
+    <!-- reader resource -->
+    <string name="reader_change_resource">换源</string>
+    <string name="left_menu_baidu_normal">百度搜索</string>
+    <string name="left_menu_baidu_tieba">百度贴吧</string>
+    <string name="left_menu_yisou">宜搜小说搜索</string>
+    <string name="slm_right_download_tips">您是否下载？</string>
+    <string name="app_upgrade_download_sucess">下载成功,开始安装.</string>
+    <string name="app_upgrade_download_fail">下载失败，请稍后再试.</string>
+
+    <string name="reader_mode_mix">自动选择</string>
+    <string name="reader_mode_res">手动选择</string>
+    <string name="reader_mode_baidu">百度搜索</string>
+    <string name="reader_mode_tieba">百度贴吧</string>
+    <string name="reader_mode_shenma">神马搜索</string>
+    <string name="reader_mode_easou">宜搜搜索</string>
+
+    <!-- pref login -->
+    <string name="pref_user_login_summary">点击登录</string>
+    <string name="pref_user_login_summary_ok">已登录</string>
+    <string name="pref_user_login_dialog_title">请选择登录方式</string>
+    <string name="pref_user_sync">同步书架</string>
+    <string name="pref_user_sync_summary">点击开始同步书架</string>
+    <string name="pref_user_sync_summary_disable">请先登录</string>
+    <string name="pref_setting_login_weibo">新浪微博账号登录</string>
+    <string name="pref_setting_login_qzone">QQ账号登录</string>
+    <string name="login_loading">正在登录，请稍后…</string>
+    <string name="login_failed">很抱歉，登录失败，请重试</string>
+    <string name="pref_setting_user_logout">登出</string>
+    <string name="pref_setting_logout_dialog">退出当前账号</string>
+    <string name="pref_user_logout_dialog_tips">确定退出当前账号吗？</string>
+    <string name="pref_user_logout_loading">正在退出</string>
+    <string name="pref_user_logout_cancel">已退出</string>
+
+    <!-- sync book -->
+    <string name="sync_loading">同步中…</string>
+    <string name="sync_failed">同步失败，请重试</string>
+    <string name="sync_token_failed">同步失败，请重新授权登录或稍后再试</string>
+
+    <!-- auth & token -->
+    <string name="auth_invalid">第三方平台验证失败，请重试</string>
+    <string name="token_invalid">账号认证失败，请重新授权登录</string>
+
+    <!-- abs_menu_edit -->
+    <string name="menu_home_add">发现</string>
+    <string name="my_msg_title">消息</string>
+
+    <!-- category -->
+    <string name="category_title">发现</string>
+
+    <!-- my discussion -->
+    <string name="my_discussion">我的话题</string>
+    <string name="slm_reader_hot_post_loading">正在加载热门话题，请稍等</string>
+    <string name="slm_reader_hot_post_failed">加载失败</string>
+
+    <!-- post -->
+    <string name="discuss_list_title">综合讨论区</string>
+    <string name="discuss_list_edit">发布</string>
+    <string name="review_list_title">书评区</string>
+    <string name="help_list_title">书荒区</string>
+
+    <string name="add_post_category_title">发布</string>
+    <string name="menu_add_post_vote">发起投票</string>
+    <string name="add_vote_title">编辑话题</string>
+    <string name="add_vote_title_hint">标题</string>
+    <string name="add_vote_desc_hint">正文</string>
+    <string name="menu_add_post_vote_next">填写投票项</string>
+    <string name="post_publish_loading">正在发布</string>
+    <string name="post_publish_failed">发布失败</string>
+    <string name="vote_send_loading">投票中，请稍后</string>
+    <string name="vote_send_failed">投票已取消</string>
+    <string name="post_report_successful">举报成功，我们会尽快处理</string>
+    <string name="post_share_title">请选择分享方式</string>
+    <string name="post_share_weibo">新浪微博</string>
+    <string name="post_share_weixin_friend">微信好友</string>
+    <string name="post_share_weixin_timeline">微信朋友圈</string>
+    <string name="post_share_qq">QQ</string>
+    <string name="post_share_qzone">QQ空间</string>
+    <string name="post_share_copy_link">复制链接</string>
+    <string name="vote_ok">确定发布</string>
+    <string name="add_book_review_title">选择小说</string>
+    <string name="add_book_review_content_title_hint">请输入标题</string>
+    <string name="add_book_review_desc_hint">请详细评价一下这本书，你的书评会影响大家的选择^ ^\n\n(1) 需要等级lv3\n(2) 需要至少50个字\n(3) 必须说明本书的优点或缺点\n(4) 重复字符凑字数的书评删除\n(5) 恶意书评将被封号\n(6) 精品书评会有额外经验奖励哦</string>
+    <string name="add_book_review_rating_title">打分</string>
+    <string name="add_book_review_content_title">编辑书评</string>
+    <string name="add_book_help_title">编辑书荒求助</string>
+    <string name="add_topic_content_title_hint">输入标题(不超过30字)</string>
+    <string name="add_topic_content_desc_hint">发帖限制lv.2\n\n话题内容</string>
+    <string name="add_book_help_content_title">请输入关键需求，限30字</string>
+    <string name="add_book_help_desc_hint">请描述你想找的书的特点 \n\n(1) 需要等级lv3\n(2) 标题未注明需求的可能会被删除\n(3) 为了帮到更多的人，我们可能会删除需求相同的求书贴</string>
+    <string name="post_sort_create">最新发布</string>
+    <string name="post_sort_update">最后回复</string>
+    <string name="post_sort_default">默认排序</string>
+    <string name="post_sort_update_default">默认排序</string>
+    <string name="post_sort_useful">最有用的</string>
+    <string name="post_sort_reply_count">最多评论</string>
+    <string name="home_topic_book_empty">添加追书查看更多话题圈</string>
+
+    <!--  -->
+    <string name="waring_dialog_topic">禁止发布以下内容，违反规定将禁封账号\n\n1.催更\n2.标题内容不明确\n3.人身攻击、广告及垃圾信息（含QQ）</string>
+    <string name="waring_dialog_review">禁止发布以下内容，违反规定将禁封账号\n\n1.与书籍评论无关\n2.标题内容不明确\n3.人身攻击、广告及垃圾信息（含QQ）</string>
+    <string name="waring_dialog_help">禁止发布以下内容，违反规定将禁封账号\n\n1.与书荒求助无关\n2.求助信息不明确\n3.人身攻击、广告及垃圾信息（含QQ）</string>
+    <!--  -->
+    <string name="my_favour_post_title">我的收藏</string>
+    <string name="my_publish_post_title">我发布的</string>
+
+    <!-- new topic -->
+    <string name="new_topic">新话题</string>
+
+    <!-- ugc -->
+    <string name="ugc_create">创建书单</string>
+
+    <!-- user info -->
+    <string name="user_info">个人资料</string>
+    <string name="user_info_exp_5">+5经验</string>
+
+    <!-- share -->
+    <string name="share_item_weibo">新浪微博</string>
+    <string name="share_item_weixin_friend">微信好友</string>
+    <string name="share_item_weixin_group">微信朋友圈</string>
+    <string name="share_item_QQ">QQ</string>
+    <string name="share_item_QZone">QQ空间</string>
+    <string name="share_item_copy_url">复制链接</string>
+
+    <!-- reader -->
+    <string name="reader_mode">阅读模式</string>
+    <string name="reader_add_book_title">添书</string>
+
+    <!-- resource list -->
+    <string name="resource_searched_title">共搜索到%1$d个网站</string>
+    <string name="resource_local_chapter">预读章节</string>
+
+    <!-- reader download -->
+    <string name="chapter_dl">预读</string>
+    <string name="chapter_dl_title">预读多少章？</string>
+    <string name="chapter_dl_count_50">后面50章</string>
+    <string name="chapter_dl_count_after">后面全部</string>
+    <string name="chapter_dl_del_title">提示</string>
+    <string name="chapter_dl_del_msg">检测到该书存在预读章节</string>
+    <string name="chapter_dl_del_cancel">保留</string>
+    <string name="chapter_dl_doing_msg">正在预读中，是否停止？</string>
+    <string name="chapter_dl_goon">继续</string>
+    <string name="chapter_dl_del_chapter">是否删除该资源站的预读内容？</string>
+    <string name="chapter_dl_del">是否删除预读章节？</string>
+    <string name="chapter_dl_net_type_msg">你没有连上WiFi哦，预读会消耗你的流量，是否确定预读？</string>
+    <string name="file_downloaded">下载完成</string>
+    <string name="download_cancelled">下载取消</string>
+
+    <string name="ucgbook_tab_weekly_hot">本周最热</string>
+    <string name="ucgbook_tab_newest">最新发布</string>
+    <string name="ucgbook_tab_favorite">最多收藏</string>
+    <string name="ucgbook_tab_my_book">我的书单</string>
+
+    <!-- settings -->
+    <string name="settings_market">给追书神器好评</string>
+    <string name="hint_new_discuss_topic_title">请输入标题</string>
+    <string name="hint_new_discuss_topic_content">请输入你的话题内容\n追书君悄悄地说：要与网文有关啊~\n\n（1）需要等级lv.3\n（2）书评与书荒求助，请去相应版块\n（3）吐槽虽好，要适度哦\n</string>
+    <string name="loading_scaning">扫描中</string>
+    <string name="secret_downloading_label">解锁可能存在延时，建议玩会儿游戏等待验证通过</string>
+    <string name="random_read_intro">无书名，无封面，无介绍，从精选的书库里随机阅读，体验未知的惊喜，随机看书，试试手气！</string>
+    <string name="alert_download_in_3g">将消耗你%s的2G/3G流量，是否下载？</string>
+    <string name="alert_too_many_words">回复文字太多了哦</string>
+
+    <string name="shelf_ad_apk_wifi">%1$s, %2$s, 哇，你正处在WIFI网络下，下载无需流量 :)</string>
+    <string name="shelf_ad_apk_no_wifi">%1$s, %2$s, 当前网络下载需消耗流量，请小心确认</string>
+
+    <!-- book feed -->
+    <string name="feed">养肥区</string>
+    <string name="feed_intro_desc">你可以将暂时不看的小说移入养肥区中，当养到指定数量的章节后会自动提醒你</string>
+    <string name="book_feed_add_book">移入小说</string>
+    <string name="feed_add_ok">移入</string>
+    <string name="feed_select_book">选择小说</string>
+    <string name="book_feed_dialog_title">开始养肥</string>
+    <string name="book_feed_dialog_msg">当养肥到50章后将会及时提醒你，你也可以在设置里修改养肥的章节数</string>
+    <string name="book_feed_dialog_ok">知道了</string>
+    <string name="feed_setting">养肥设置</string>
+    <string name="book_feed_setting_limit">当未读章节达到 %1$d 章时提醒</string>
+    <string name="feed_fat">小说已经养肥</string>
+    <string name="feed_intro">养肥说明</string>
+
+</resources>
